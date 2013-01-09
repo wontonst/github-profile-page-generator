@@ -1,0 +1,11 @@
+/**
+@mainpage
+@section f Features
+<ul>
+<li>Customizable listing of repositories</li>
+<li>Automatic/custom display of repository documentation</li>
+<li>Team role/contributions in LOC/commits</li>
+<li>Time involved in project (from start to end/present)</li>
+<li>Beautiful UI</li>
+</ul>
+*/
