@@ -3,6 +3,8 @@
 require_once('php-github-api/vendor/autoload.php');
 
 $client = new Github\Client();
+include('logininfo.php');
+$client->authenticate($cid,$cs,Github\Client::AUTH_URL_CLIENT_ID);
 //$repositories = $client->api('wontonst')->repositories('writeart');
 $wontonst = $client->api('user')->repositories('wontonst');
 //var_dump($wontonst[0]);
