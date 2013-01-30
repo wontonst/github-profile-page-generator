@@ -16,4 +16,7 @@ foreach($wontonst as $v)
 {
 echo $v['name']."\n";
 }
+$client->api('me')->followers();
+//$client->api('me')->follow()->follow('KnpLabs');
+//[Avar_dump($client->api('repo')->show('wontonst','php-github-api'));
 ?>
